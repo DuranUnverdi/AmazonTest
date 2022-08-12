@@ -1,0 +1,49 @@
+2022-08-12 14:05:43,769 INFO  [Log] accept_cookies() PASSED 
+2022-08-12 14:05:47,996 INFO  [Log] amazon_login() PASSED 
+2022-08-12 14:05:48,971 INFO  [Log] search_a_category() PASSED 
+2022-08-12 14:05:51,434 INFO  [Log] search_a_product() PASSED 
+2022-08-12 14:05:52,159 INFO  [Log] search_a_second_page() PASSED 
+2022-08-12 14:05:54,816 INFO  [Log] select_a_product() PASSED 
+2022-08-12 14:05:55,021 INFO  [Log] add_product_to_list() PASSED 
+2022-08-12 14:07:03,974 INFO  [Log] go_to_list() PASSED 
+2022-08-12 14:07:05,755 INFO  [Log] go_to_account_favorite() PASSED 
+2022-08-12 14:07:06,521 INFO  [Log] go_to_delete_list() PASSED 
+2022-08-12 14:07:07,711 INFO  [Log] amazon_logout() PASSED 
+2022-08-12 14:10:06,621 INFO  [Log] accept_cookies() PASSED 
+2022-08-12 14:11:18,011 INFO  [Log] amazon_login() PASSED 
+2022-08-12 14:11:18,391 INFO  [Log] search_a_category() PASSED 
+2022-08-12 14:11:20,425 INFO  [Log] search_a_product() PASSED 
+2022-08-12 14:11:21,096 INFO  [Log] search_a_second_page() PASSED 
+2022-08-12 14:11:24,299 INFO  [Log] select_a_product() PASSED 
+2022-08-12 14:11:24,450 INFO  [Log] add_product_to_list() PASSED 
+2022-08-12 14:11:26,131 INFO  [Log] go_to_list() PASSED 
+2022-08-12 14:11:31,684 INFO  [Log] go_to_account_favorite() PASSED 
+2022-08-12 14:11:47,712 ERROR [Log] go_to_delete_list() FAILED with cause : no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'Silindi')]"}
+  (Session info: chrome=104.0.5112.81)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-LI8CF0L', ip: '192.168.1.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4d5b22f350a859831cca76eaf4d5d88f, findElement {using=xpath, value=//div[contains(text(),'Silindi')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\Duran\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55379}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55379/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4d5b22f350a859831cca76eaf4d5d88f 
+2022-08-12 14:12:09,865 ERROR [Log] amazon_logout() FAILED with cause : no such element: Unable to locate element: {"method":"xpath","selector":"//h1[@class='a-spacing-smalla']"}
+  (Session info: chrome=104.0.5112.81)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-LI8CF0L', ip: '192.168.1.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4d5b22f350a859831cca76eaf4d5d88f, findElement {using=xpath, value=//h1[@class='a-spacing-smalla']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\Duran\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55379}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55379/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4d5b22f350a859831cca76eaf4d5d88f 
+2022-08-12 14:13:46,701 INFO  [Log] accept_cookies() PASSED 
+2022-08-12 14:13:50,555 INFO  [Log] amazon_login() PASSED 
+2022-08-12 14:13:52,222 INFO  [Log] search_a_category() PASSED 
+2022-08-12 14:13:54,971 INFO  [Log] search_a_product() PASSED 
+2022-08-12 14:13:55,666 INFO  [Log] search_a_second_page() PASSED 
+2022-08-12 14:13:58,149 INFO  [Log] select_a_product() PASSED 
+2022-08-12 14:13:58,364 INFO  [Log] add_product_to_list() PASSED 
+2022-08-12 14:14:00,298 INFO  [Log] go_to_list() PASSED 
+2022-08-12 14:14:01,896 INFO  [Log] go_to_account_favorite() PASSED 
+2022-08-12 14:14:02,560 INFO  [Log] go_to_delete_list() PASSED 
+2022-08-12 14:14:04,064 INFO  [Log] amazon_logout() PASSED 
